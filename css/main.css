@@ -436,7 +436,21 @@ width: 100%;
 border-bottom: 0px solid #000;
 box-shadow: 1px 2px 2px #000;
 }
-
+header h3 {
+font-size: 2em;
+margin: 10px 0;
+color: #4284AA;
+border: 5px solid;
+float: left;
+padding: 5px 10px;
+position: relative;
+left: 5%;
+border-radius: 35px;
+}
+a {
+color: #0A9B78;
+text-decoration: none;
+}
 footer {
     background-color: #111;
     height: 60px;
@@ -444,7 +458,10 @@ footer {
     position: fixed;
     width: 100%;
 }
-
+footer p {
+    margin-left: 5%;
+    float: left;
+}
 .color1 {
 background-color: #BB4545;
 height: 5px;
